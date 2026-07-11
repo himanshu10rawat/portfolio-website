@@ -126,8 +126,8 @@ export const INDUSTRY_PROJECTS = [
   {
     name: "PixelFeed",
     tag: "Full-Stack Social Media App",
-    link: "instagram-mern-nu.vercel.app",
-    url: "https://instagram-mern-nu.vercel.app/",
+    link: "pixelfeed-ai.netlify.app",
+    url: "https://pixelfeed-ai.netlify.app/",
     desc: "Full-stack social app in React.js with Redux Toolkit and JWT auth — posts, likes, comments, profiles, and protected routing. Deployed on Vercel.",
     stack: ["React.js", "MERN", "Redux Toolkit", "JWT"],
   },
