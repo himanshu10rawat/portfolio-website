@@ -100,11 +100,11 @@ export const EXPERIENCE = [
 
 export const INDUSTRY_PROJECTS = [
   {
-    name: "VegEase App",
-    tag: "Food-Tech · Consumer Platform",
+    name: "Kanteeno App",
+    tag: "Food & Snack Ordering Platform",
     link: "Play Store",
-    url: "https://play.google.com/store/apps/details?id=com.vegease&hl=en_IN&gl=US",
-    desc: "React.js components powering product browsing, order management, and admin workflows for the live consumer app.",
+    url: "https://play.google.com/store/apps/details?id=com.Kanteeno",
+    desc: "Contributed to the React.js frontend of Kanteeno, a live food and snack ordering platform on Google Play and the App Store, letting users browse, order, and manage meals.",
     stack: ["React.js", "Next.js", "REST APIs", "Lazy Loading"],
   },
   {
@@ -122,6 +122,22 @@ export const INDUSTRY_PROJECTS = [
     url: "https://astrotalk.com",
     desc: "Scalable Angular frontend for millions of users, with SEO and performance improvements to page discoverability.",
     stack: ["Angular", "SEO", "Performance"],
+  },
+  {
+    name: "PixelFeed",
+    tag: "Full-Stack Social Media App",
+    link: "instagram-mern-nu.vercel.app",
+    url: "https://instagram-mern-nu.vercel.app/",
+    desc: "Full-stack social app in React.js with Redux Toolkit and JWT auth — posts, likes, comments, profiles, and protected routing. Deployed on Vercel.",
+    stack: ["React.js", "MERN", "Redux Toolkit", "JWT"],
+  },
+  {
+    name: "SyncNet",
+    tag: "Social Networking Web App",
+    link: "syncnet.netlify.app",
+    url: "https://syncnet.netlify.app/",
+    desc: "React.js social networking app with feed, profile, and post interaction features, using IndexedDB for client-side persistence with no backend dependency.",
+    stack: ["React.js", "IndexedDB", "Firebase Hosting"],
   },
 ];
 

@@ -12,21 +12,30 @@ export default function Hero({ onNav }) {
               <span className="w-2.5 h-2.5 rounded-full bg-[#FF5F57]"></span>
               <span className="w-2.5 h-2.5 rounded-full bg-[#FEBC2E]"></span>
               <span className="w-2.5 h-2.5 rounded-full bg-[#28C840]"></span>
-              <span className="ml-3 font-mono text-[11px] text-neutral-500">developer.ts</span>
+              <span className="ml-3 font-mono text-[11px] text-neutral-500">
+                developer.ts
+              </span>
             </div>
             <pre className="p-5 text-[13px] leading-relaxed font-mono overflow-x-auto">
               <code>
-                <span className="text-[#6B7280]">// meet the frontend</span>{"\n"}
+                <span className="text-[#6B7280]">// meet the frontend</span>
+                {"\n"}
                 <span className="text-[#C792EA]">const</span>{" "}
                 <span className="text-[#82AAFF]">developer</span> = {"{"}
                 {"\n"}
-                {"  "}name: <span className="text-[#C3E88D]">"Himanshu Rawat"</span>,{"\n"}
-                {"  "}role: <span className="text-[#C3E88D]">"Frontend Developer"</span>,{"\n"}
-                {"  "}stack: [<span className="text-[#C3E88D]">"React.js"</span>,{" "}
-                <span className="text-[#C3E88D]">"Next.js"</span>,{" "}
-                <span className="text-[#C3E88D]">"JavaScript"</span>],{"\n"}
-                {"  "}experience: <span className="text-[#C3E88D]">"5+ years"</span>,{"\n"}
-                {"  "}status: <span className="text-[#C3E88D]">"open to work"</span>
+                {"  "}name:{" "}
+                <span className="text-[#C3E88D]">"Himanshu Rawat"</span>,{"\n"}
+                {"  "}role:{" "}
+                <span className="text-[#C3E88D]">"Frontend Developer"</span>,
+                {"\n"}
+                {"  "}stack: [<span className="text-[#C3E88D]">"React.js"</span>
+                , <span className="text-[#C3E88D]">"Next.js"</span>,{" "}
+                <span className="text-[#C3E88D]">"JavaScript"</span>,
+                <span className="text-[#C3E88D]">"TypeScript"</span>],{"\n"}
+                {"  "}experience:{" "}
+                <span className="text-[#C3E88D]">"5+ years"</span>,{"\n"}
+                {"  "}status:{" "}
+                <span className="text-[#C3E88D]">"open to work"</span>
                 {"\n"}
                 {"}"}
                 <span className="caret text-[#F2B84B]">▍</span>
@@ -41,7 +50,9 @@ export default function Hero({ onNav }) {
             <h1 className="font-display text-4xl sm:text-5xl font-semibold tracking-tight text-neutral-900 dark:text-white leading-[1.1]">
               {PROFILE.name}
             </h1>
-            <p className="mt-3 text-lg text-neutral-700 dark:text-neutral-300">{PROFILE.tagline}</p>
+            <p className="mt-3 text-lg text-neutral-700 dark:text-neutral-300">
+              {PROFILE.tagline}
+            </p>
             <p className="mt-4 text-sm text-neutral-600 dark:text-neutral-400 flex items-center gap-1.5">
               <MapPin className="w-4 h-4" /> {PROFILE.location}
             </p>
